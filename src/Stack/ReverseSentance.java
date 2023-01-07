@@ -41,7 +41,7 @@ public class ReverseSentance {
 
         while(!s.isEmpty()){
 
-            ans = s.pop()+ans;
+            ans += s.pop();
 
         }
 
