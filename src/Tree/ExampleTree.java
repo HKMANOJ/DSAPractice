@@ -17,6 +17,8 @@ public class ExampleTree {
         root = new node(data);
         System.out.println("enter data left");
         root.left = createTree();
+        System.out.println("enter data right");
+        root.right = createTree();
         return root;
     }
 }
