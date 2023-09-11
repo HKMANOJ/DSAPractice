@@ -1,6 +1,7 @@
 package Bitwise;
 
 public class Bit1 {
+    // to Deque.find the non repating no in array
     static int norOperation(int [] n){
         int ans=0;
         for (int i = 0; i < n.length; i++) {

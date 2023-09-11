@@ -10,5 +10,9 @@ public class LeftShift {
 
         int x=8;
         System.out.println(x<<1);
+
+        int a=2;
+        int b=4;
+        System.out.println(a&b);
     }
 }
